@@ -41,6 +41,10 @@ body {
   color: #ffc107;
 }
 
+.logo-img{
+  width: 250px !important;
+}
+
 .header-content-text {
   font-family: 'Bodoni Moda', serif;
   font-size: 57px;
@@ -100,7 +104,6 @@ body {
 .card-img{
   height: 520px;
 }
-
 
 /* Video Section Starts */
 
