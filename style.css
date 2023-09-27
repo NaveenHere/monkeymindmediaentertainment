@@ -17,6 +17,10 @@ body {
   box-sizing: border-box;
 }
 
+.bg-black{
+  background-color: #000;
+}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -42,7 +46,7 @@ body {
 }
 
 .logo-img{
-  width: 250px !important;
+  width: 200px !important;
 }
 
 .header-content-text {
@@ -375,3 +379,54 @@ ul {
 }
 
 /* Footer Ends */
+
+
+
+
+/* Media Queries Starts */
+
+/* Media query for small screens (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+  
+  .masthead {
+    background-size: cover !important;
+  }
+  p{
+    font-size: 16px !important;
+  }
+  .lead{
+    font-size: 18px !important;
+  }
+  .header-content-text{
+    font-size: 36px;
+  }
+  .col-6{
+    width: 100% !important;
+  }
+
+
+  /* About Us Starts */
+
+  .about-us .col-10{
+    width: 100% !important;
+  }
+
+  /* About Us Ends */
+
+
+}
+
+/* Media query for medium screens (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for medium screens */
+
+}
+
+/* Media query for large screens (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+  /* CSS rules for large screens */
+
+}
+
+
+/* Media Queries Ends */
